@@ -1,2 +1,5 @@
-const index = require("../greeting/index.js");
-console.log(index);
+const greetings = require("../greeting/index");
+
+module.exports = `Hello Rahul! ${greetings}`;
+
+console.log(greetings);
